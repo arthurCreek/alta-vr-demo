@@ -11,15 +11,16 @@ export interface Props {
 export default function Home(props: Props) {
   return (
     <Layout>
-      <div className="news-container w-8/12 h-1/2 mt-16 mx-auto">
+      <div className="news-container h-1/2 mt-16 mx-auto pb-32">
         <div className="news-header-container">
           <h1>TALES OF THE TOWNSHIP</h1>
-          <p>UPDATES, NEWS AND DEV BLOGS</p>
+          <p className="hidden lg:block">UPDATES, NEWS AND DEV BLOGS</p>
         </div>
-        {props.newsItems.map((newsItem: any) => (
-            <NewsItem key={newsItem.title}/>
+        {props.newsItems.map((newsItem: any, index: any) => (
+            <NewsItem key={index}/>
           ))}
       </div>
+      <div className="news-bg"></div>
     </Layout>
   );
 }

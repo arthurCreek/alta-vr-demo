@@ -5,7 +5,10 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ['responsive', 'hover', 'focus'],
+      transform: ['hover', 'focus'],
+    },
   },
   plugins: [require('@tailwindcss/line-clamp')],
 }
