@@ -11,7 +11,7 @@ export interface Props {
 export default function Home(props: Props) {
   return (
     <Layout>
-      <div className="news-container h-1/2 mt-16 mx-auto pb-32">
+      <div className="news-container h-1/2 mt-16 mx-auto pb-2 lg:pb-32">
         <div className="news-header-container">
           <h1>TALES OF THE TOWNSHIP</h1>
           <p className="hidden lg:block">UPDATES, NEWS AND DEV BLOGS</p>
