@@ -29,7 +29,7 @@ export default function Layout(props: Props) {
 
       {/* {router.pathname === '/' && <Showcase />} */}
 
-      <div>{props.children}</div>
+      <div className="-mt-1 pt-10 lg:pt-24">{props.children}</div>
 
       <Footer />
     </div>

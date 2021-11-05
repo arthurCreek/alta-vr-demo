@@ -19,60 +19,108 @@ a {
 @tailwind components;
 @tailwind utilities;
 
+.josefine-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.merienda-font {
+  font-family: 'Merienda', cursive;
+}
+
+nav a {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  position: fixed;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    display: flex;
+    font-family: Josefin Sans,sans-serif;
+    box-shadow: none;
+    margin: 0;
+    z-index: 106;
+    font-size: 16px;
+    font-weight: 400;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0!important;
+    background: 0 0;
+}
+
+.gray-dark {
+  color: #7e7e7e;
+}
+
+.gray-medium {
+  color: #918b8a;
+}
+
+.gray-light {
+  color: #e7e4e3;
+}
+
+.gray-lighter {
+  color: #e3e3e3;
+}
 
 .left-menu-bg {
   position: absolute;
-    width: 19.5em;
-    height: 5.75em;
-    left: 0;
-    z-index: 1;
-    background-image: url(/images/top_left.svg);
+  width: 19.5em;
+  height: 5.75em;
+  left: 0;
+  z-index: 1;
+  background-image: url(/images/top_left.svg);
 }
 
 .center-menu-bg {
   position: absolute;
-    background-repeat: repeat;
-    width: 100%;
-    height: 5.75em;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 0;
-    background-image: url(/images/top_center.svg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 5.75em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  background-image: url(/images/top_center.svg);
 }
 
 .right-menu-bg {
   position: absolute;
-    width: 19.5em;
-    height: 5.75em;
-    right: 0;
-    z-index: 1;
-    background-image: url(/images/top_right.svg);
+  width: 19.5em;
+  height: 5.75em;
+  right: 0;
+  z-index: 1;
+  background-image: url(/images/top_right.svg);
 }
 
 .desktop-menu-container {
-    position: absolute;
-    top: -3em;
-    align-items: normal;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    height: 9.6em;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto!important;
-    z-index: 2;
+  position: absolute;
+  top: -3em;
+  align-items: normal;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 9.6em;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto !important;
+  z-index: 2;
 }
 
 .desktop-bg-container {
   position: relative;
-    height: 5.75em;
-    width: 100%;
+  height: 5.75em;
+  width: 100%;
 }
 
 .desktop-logo {
   position: absolute;
-    top: 45%;
+  top: 45%;
 }
 
 .main-container {
@@ -98,18 +146,18 @@ a {
 .news-item-container {
   background-image: url(/images/news/item_header.svg);
   background-repeat: no-repeat;
-  width: calc(16rem* 3.17);
+  width: calc(16rem * 3.17);
   max-width: 104%;
   height: auto;
   margin: 0 0 1rem;
   transform: translateX(-0.4rem);
-  transition: .1s;
+  transition: 0.1s;
   transition-timing-function: ease-in-out;
 }
 
 .news-header-container h1 {
   text-align: center;
-  font-family: adorn-condensed-sans,sans-serif;
+  font-family: 'Merienda', cursive;
   font-weight: 400;
   font-style: normal;
   color: #f7ded2;
@@ -123,18 +171,19 @@ a {
   font-size: 1.5rem;
   margin: -0.6rem 0 0;
   text-align: center;
-    font-family: adorn-condensed-sans,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #f7ded2;
+  font-family: 'Merienda', cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #f7ded2;
 }
+
 
 .footer-container {
   background-color: #261209;
 }
 
 .news-item-title {
-  color:#ff9e1d
+  color: #ff9e1d;
 }
 
 .news-container {
@@ -143,7 +192,7 @@ a {
   max-width: 90%;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .news-container {
     width: 57.4rem;
   }
@@ -154,13 +203,21 @@ a {
     max-width: none;
   }
   .news-item-container {
-    width: calc(18.75rem* 3.17);
-    height: calc(3.8125rem* 3.2);
+    width: calc(18.75rem * 3.17);
+    height: calc(3.8125rem * 3.2);
     max-width: none;
     margin: 0 0 1rem;
     transform: translateX(-1.5rem);
-    transition: .3s;
+    transition: 0.3s;
     transition-timing-function: ease-in-out;
   }
-
 }
+
+
+@media screen and (max-width: 1023px) {
+  nav {
+    background-image: url(/images/divider_top_middle-cut.png);
+    background-repeat: no-repeat;
+  }
+}
+

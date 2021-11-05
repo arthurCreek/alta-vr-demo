@@ -4,7 +4,8 @@ import { FaPaintBrush } from 'react-icons/fa';
 
 export default function Header() {
   return (
-    <nav className="flex items-center justify-between flex-wrap">
+    <nav className="flex px-2 py-2 lg:p-0 items-center justify-between flex-wrap">
+      
       {/* Mobile menu button */}
       <div className="block lg:hidden">
         <button className="flex items-center text-white hover:text-white text-lg">

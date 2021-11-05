@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer-container py-8 lg:py-24 px-4 flex flex-col gap-6 items-center">
       <div>
-        <a className="text-gray-500 font-semibold hover:text-yellow-400 cursor-pointer">DOWNLOAD A TOWNSHIP TALE</a>
+        <a className="gray-dark font-semibold hover:text-yellow-400 cursor-pointer josefine-font">DOWNLOAD A TOWNSHIP TALE</a>
       </div>
       <div className="w-10/12 lg:w-f flex gap-4 justify-center md:gap-8">
         {/* Facebook   */}
@@ -103,34 +103,34 @@ export default function Footer() {
       <div className="w-10/12 lg:w-f  flex gap-2 justify-center lg:gap-8">
         <a
           href="#responsive-header"
-          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 text-gray-300 hover:text-yellow-400 lg:pb-2"
+          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 gray-lighter hover:text-yellow-400 lg:pb-2  josefine-font"
         >
           Alta
         </a>
-        <span className="text-gray-300">|</span>
+        <span className="gray-lighter">|</span>
         <a
           href="#responsive-header"
-          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 text-gray-300 hover:text-yellow-400 lg:pb-2"
+          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 gray-lighter hover:text-yellow-400 lg:pb-2  josefine-font"
         >
           Feedback
         </a>
-        <span className="text-gray-300">|</span>
+        <span className="gray-lighter">|</span>
         <a
           href="#responsive-header"
-          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 text-gray-300 hover:text-yellow-400 lg:pb-2"
+          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 gray-lighter hover:text-yellow-400 lg:pb-2  josefine-font"
         >
           Wiki
         </a>
-        <span className="text-gray-300">|</span>
+        <span className="gray-lighter">|</span>
         <a
           href="#responsive-header"
-          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 text-gray-300 hover:text-yellow-400 lg:pb-2"
+          className="block lg:flex lg:gap-2 lg:items-end lg:mt-0 gray-lighter hover:text-yellow-400 lg:pb-2  josefine-font"
         >
           Discord
         </a>
       </div>
       <div>
-        <p className="text-gray-400">
+        <p className="gray-lighter josefine-font">
           © 2021 Alta Reality Pty Ltd. All Rights Reserved.
         </p>
       </div>
