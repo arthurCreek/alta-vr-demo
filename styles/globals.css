@@ -89,7 +89,7 @@ a {
   height: 11.3rem;
   margin: 0rem 0 1rem;
   display: flex;
-  transform: translate(-4rem, -3rem);
+  transform: translate(-4rem, -2rem);
   flex-direction: column;
   justify-content: center;
 }
@@ -136,6 +136,10 @@ a {
 
 .footer-container {
   background-color: #261209;
+}
+
+.news-item-title {
+  color:#ff9e1d
 }
 
 .news-container {

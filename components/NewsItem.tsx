@@ -8,9 +8,9 @@ export default function NewsItem() {
         <img src="/images/news/victor.png" className="w-32 h-32" />
       </div>
       <div  className="w-2/5">
-        <h2 className="news-item-title font-bold text-lg">ATT Released on the Quest!</h2>
-        <p  className="news-item-date font-light text-gray-500">July 16, 2021</p>
-        <p className="news-item-author text-sm text-gray-500">by Victor</p>
+        <h2 className="news-item-title font-bold text-2xl">ATT Released on the Quest!</h2>
+        <p  className="news-item-date font-normal text-lg text-gray-500 mb-1">July 16, 2021</p>
+        <p className="news-item-author text-sm text-gray-500 mb-2">by Victor</p>
         <h3 className="news-item-text text-sm text-gray-300 line-clamp-2">
           Hello peeps, Victor here bearing good news! After a long year of
           silence, suspense and mystery, we’ve announced that we were officially

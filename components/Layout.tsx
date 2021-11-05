@@ -30,11 +30,11 @@ export default function Layout(props: Props) {
 
         {/* {router.pathname === '/' && <Showcase />} */}
 
-        {/* <div className={styles.container}>
+        <div>
             {props.children}
-        </div> */}
+        </div>
 
-        <News />
+        {/* <News/> */}
 
         <Footer />
         </div>
