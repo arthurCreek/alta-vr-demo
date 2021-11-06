@@ -19,6 +19,7 @@ a {
 @tailwind components;
 @tailwind utilities;
 
+/* Fonts */
 .josefine-font {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -27,30 +28,7 @@ a {
   font-family: 'Merienda', cursive;
 }
 
-nav a {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-nav {
-  position: fixed;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: auto;
-    width: 100%;
-    display: flex;
-    font-family: Josefin Sans,sans-serif;
-    box-shadow: none;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 0!important;
-    background: 0 0;
-}
-
+/* Colors */
 .alta-orange {
   color: #ff9e1d;
 }
@@ -69,6 +47,31 @@ nav {
 
 .gray-lighter {
   color: #e3e3e3;
+}
+
+/* Navigation */
+nav a {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  display: flex;
+  font-family: Josefin Sans, sans-serif;
+  box-shadow: none;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 !important;
+  background: 0 0;
 }
 
 .left-menu-bg {
@@ -113,19 +116,9 @@ nav {
   z-index: 2;
 }
 
-.desktop-bg-container {
-  position: relative;
-  height: 5.75em;
-  width: 100%;
-}
-
 .desktop-logo {
   position: absolute;
   top: 45%;
-}
-
-.sidebar {
-  
 }
 
 .sidebar-container {
@@ -139,6 +132,14 @@ nav {
   transform: translateX(0) !important;
 }
 
+/* Desktop background */
+.desktop-bg-container {
+  position: relative;
+  height: 5.75em;
+  width: 100%;
+}
+
+/* Main container */
 .main-container {
   background-image: url(/images/news/bg_generic.jpg);
   background-attachment: fixed;
@@ -148,6 +149,7 @@ nav {
   background-size: cover;
 }
 
+/* News page */
 .news-header-container {
   background-image: url(/images/news/news-header.svg);
   background-repeat: no-repeat;
@@ -195,11 +197,6 @@ nav {
   color: #f7ded2;
 }
 
-
-.footer-container {
-  background-color: #261209;
-}
-
 .news-item-title {
   color: #ff9e1d;
 }
@@ -209,6 +206,13 @@ nav {
   width: 50em;
   max-width: 90%;
 }
+
+/* Footer */
+.footer-container {
+  background-color: #261209;
+}
+
+/* Media queries */
 
 @media screen and (min-width: 1024px) {
   .news-container {
@@ -237,7 +241,6 @@ nav {
   }
 }
 
-
 @media screen and (max-width: 1023px) {
   nav {
     background-image: url(/images/divider_top_middle-cut.png);
@@ -245,4 +248,3 @@ nav {
     background-size: cover;
   }
 }
-

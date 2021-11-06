@@ -1,4 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+// Fetch news article data for News feed
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
@@ -16,6 +18,7 @@ export default function handler(
   res.status(200).json(newsData);
 }
 
+//TODO - remove placeholder data, connect to real api
 const newsData = [
   {
     profile_image: '/images/news/victor.png',
