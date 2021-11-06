@@ -237,7 +237,7 @@ nav {
   .main-container {
     background-image: url(/images/news/bg_news.jpg);
     background-position: 0 0;
-    background-size: auto;
+    background-size: 140%;
   }
 }
 
