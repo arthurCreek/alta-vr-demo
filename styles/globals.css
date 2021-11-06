@@ -42,7 +42,6 @@ nav {
     font-family: Josefin Sans,sans-serif;
     box-shadow: none;
     margin: 0;
-    z-index: 106;
     font-size: 16px;
     font-weight: 400;
     border-top: none;
@@ -50,6 +49,10 @@ nav {
     border-right: none;
     border-radius: 0!important;
     background: 0 0;
+}
+
+.alta-orange {
+  color: #ff9e1d;
 }
 
 .gray-dark {
@@ -101,9 +104,7 @@ nav {
   position: absolute;
   top: -3em;
   align-items: normal;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: flex;
   flex-direction: row;
   height: 9.6em;
   width: 100%;
@@ -121,6 +122,21 @@ nav {
 .desktop-logo {
   position: absolute;
   top: 45%;
+}
+
+.sidebar {
+  
+}
+
+.sidebar-container {
+  transform: translateX(-115%);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  background-color: #1f120e;
+}
+
+.nav-open {
+  transform: translateX(0) !important;
 }
 
 .main-container {
@@ -218,6 +234,7 @@ nav {
   nav {
     background-image: url(/images/divider_top_middle-cut.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
