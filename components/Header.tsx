@@ -31,7 +31,7 @@ export default function Header() {
         </a>
         {/* </div> */}
         {/* Mobile Logo */}
-        <div className="flex items-center flex-shrink-0 mr-6 lg:hidden">
+        <div className="flex items-center flex-shrink-0 lg:hidden">
           <Image
             className="cursor-pointer"
             src="/images/news/tow_logo_white_long.svg"

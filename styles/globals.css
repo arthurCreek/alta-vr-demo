@@ -212,6 +212,10 @@ nav {
   background-color: #261209;
 }
 
+.modal-open {
+  display: block !important;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1024px) {

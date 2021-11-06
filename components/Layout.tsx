@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Footer from './Footer';
 import Header from './Header';
 import News from './News';
+import Report from './Report';
 // import Footer from './Footer';
 // import Showcase from './Showcase';
 // import styles from '@/styles/Layout.module.css';
@@ -31,6 +32,7 @@ export default function Layout(props: Props) {
 
       <div className="-mt-1 pt-10 lg:pt-24">{props.children}</div>
 
+      <Report />
       <Footer />
     </div>
   );
