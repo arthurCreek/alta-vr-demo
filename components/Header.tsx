@@ -14,7 +14,6 @@ export default function Header() {
     <div>
       <nav className="flex px-3 py-2 lg:p-0 items-center justify-between flex-wrap z-40">
         {/* Mobile menu button */}
-        {/* <div className=""> */}
         <a
           href="#"
           className="flex items-center text-white hover:text-yellow-400 text-lg block lg:hidden cursor-pointer"
@@ -29,7 +28,6 @@ export default function Header() {
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </a>
-        {/* </div> */}
         {/* Mobile Logo */}
         <div className="flex items-center flex-shrink-0 lg:hidden">
           <Image

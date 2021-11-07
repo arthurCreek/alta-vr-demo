@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function NewsItem() {
   return (
-    <div className="news-item-container p-4 md:p-6 lg:p-9 flex flex-col-reverse items-center lg:flex-row justify-between hover:transform hover:translate-x-px cursor-pointer">
+    <div className="news-item-container p-4 md:p-6 lg:p-9 flex flex-col-reverse items-center lg:flex-row justify-between lg:hover:transform lg:hover:translate-x-px cursor-pointer">
       {/* Author Picture */}
       <div className="w-32 h-32 news-item-profile-image hidden lg:block">
         <img src="/images/news/victor.png" className="w-32 h-32" />
