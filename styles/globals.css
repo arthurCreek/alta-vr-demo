@@ -19,6 +19,25 @@ a {
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.185);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+::-webkit-scrollbar-track {
+  /* background: rgba(0, 0, 0, .25); */
+  background: rgba(92, 54, 11, 0.397);
+  border-radius: 0;
+}
+
 /* Fonts */
 .josefine-font {
   font-family: 'Josefin Sans', sans-serif;
