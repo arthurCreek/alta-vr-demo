@@ -1,4 +1,5 @@
 Alta VR Demo
+
 This is a project intended to replciate the News page from A Township Tale website.  It is only meant to showcase some Front End development skills and will not have full functionality.
 
 Made with:
@@ -6,6 +7,8 @@ Next.js
 Tailwind CSS
 
 Hosted on Vercel.
+
+Additional information from Next:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
