@@ -1,7 +1,6 @@
 import { NEXT_URL } from '../config/index';
 import Layout from '../components/Layout';
 import React from 'react';
-import News from '../components/News';
 import NewsItem from '../components/NewsItem';
 
 export interface Props {
